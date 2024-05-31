@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "nombre": "Los Vengadores",
+        "genero": "Ciencia Ficción"
+    },
+    {
+        "id": 2,
+        "nombre": "El precio del mañana",
+        "genero": "Ciencia Ficción"
+    },
+    {
+        "id": 3,
+        "nombre": "Soul",
+        "genero": "Animación"
+    }
+    
+]

@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "apiPelicula",
+    "dateExported": "2024-04-07T07:12:11.633Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d610f4da-69e3-4038-9ed6-fb5986ef64c9",
+            "colId": "71dfa40b-c1bc-4a2b-8c1d-d05b3940501a",
+            "containerId": "",
+            "name": "updateOne",
+            "url": "http://localhost:8080/api/peliculas/4",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-04-07T07:05:21.824Z",
+            "modified": "2024-04-07T07:05:21.824Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n  \"nombre\": \"Intensamente\",\n  \"genero\": \"Animado\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "14966d2c-df7f-4932-8574-0c6e8277d7c8",
+            "colId": "71dfa40b-c1bc-4a2b-8c1d-d05b3940501a",
+            "containerId": "",
+            "name": "createNew",
+            "url": "http://localhost:8080/api/peliculas",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-04-07T07:05:27.518Z",
+            "modified": "2024-04-07T07:05:27.518Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":4, \n  \"nombre\":\"intensamente\", \n  \"genero\":\"animado\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ce29c34a-23ec-4e86-8321-1c32047b1061",
+            "colId": "71dfa40b-c1bc-4a2b-8c1d-d05b3940501a",
+            "containerId": "",
+            "name": "findAll",
+            "url": "http://localhost:8080/api/peliculas",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-07T07:05:34.509Z",
+            "modified": "2024-04-07T07:05:34.509Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "43610011-ed44-431f-a3cf-90c1fec2ba16",
+            "colId": "71dfa40b-c1bc-4a2b-8c1d-d05b3940501a",
+            "containerId": "",
+            "name": "findOne",
+            "url": "http://localhost:8080/api/peliculas/2",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-07T07:05:43.512Z",
+            "modified": "2024-04-07T07:05:43.512Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d2ffbaf4-02c3-4778-816a-7df4bad7db47",
+            "colId": "71dfa40b-c1bc-4a2b-8c1d-d05b3940501a",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:8080/api/peliculas/1",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-04-07T07:09:17.282Z",
+            "modified": "2024-04-07T07:10:46.381Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
